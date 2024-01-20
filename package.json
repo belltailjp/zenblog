@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preview": "npx zenn preview",
+    "new:article": "bash scripts/new_article.sh",
+    "clean:images": "find ./images -depth -type d -empty -exec rmdir {} \\;"
   },
   "keywords": [],
   "author": "",
